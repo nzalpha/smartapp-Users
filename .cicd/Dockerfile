@@ -7,5 +7,5 @@ RUN mkdir -p /opt/aadil/
 WORKDIR /opt/aadil/
 COPY ["${JAR_SRC}" ,"/opt/aadil/user.jar"]
 RUN chmod 777 /opt/aadil/
-EXPOSE 8132 
+EXPOSE 8232 
 CMD ["java", "-jar", "/opt/aadil/user.jar"]
